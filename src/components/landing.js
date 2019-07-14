@@ -7,8 +7,8 @@ export default class login extends React.Component
   	render(){
    	return(
 
-	    <div className="divStyle text">
-		    <h2>Hey! Lets get started!</h2>
+	    <div className="divStyle text dark_background">
+		    <h2 style={{marginLeft:"40px"}}>Hey! Lets get started!</h2>
 			<div>
 			    <ul>
 			     <div className="divStyle">

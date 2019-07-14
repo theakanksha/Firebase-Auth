@@ -46,11 +46,11 @@ export default class signup extends React.Component{
   
    render(){
    	if(this.state.status){
-		    return <Redirect to='/'  />
+		    return <Redirect to='/signin'  />
 		 }
     else{
 	   	return(
-		    <Container className="divStyle">
+		    <Container className="divStyle dark_background">
 			<div className="divStyle">
 			<h2> Sign Up </h2>
 			<h3> Hello! We are glad to have you on board. </h3>

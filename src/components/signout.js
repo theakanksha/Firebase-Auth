@@ -27,17 +27,17 @@ export default class login extends React.Component
   		if(!this.state.status)
    		{
    			return(
-   				<div className="divStyle text">
-   				<h3> You have successfully logged out </h3>
+   				<div className="divStyle text dark_background">
+   				<h3 style={{margin:"50px"}}> You have successfully logged out </h3>
    				</div>
    				);
    		}
    	else
    		{
 	   		return(
+	   			<div className="dark_background">
 	   			<div>
-	   			<div>
-	   			   	<h3> You have successfully logged in </h3>
+	   			   	<h3 style={{marginLeft:"600px"}}> You have successfully logged in </h3>
 	   			</div>
 
 		        <div className="divStyle">

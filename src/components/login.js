@@ -47,8 +47,7 @@ export default class login extends React.Component
   		else
   		{
 		   	return(
-
-			    <Container className="divStyle">
+			    <Container className="divStyle dark_background">
 				<div className="divStyle">
 				<h1>Log In</h1>
 				<p> Need an account? <Link to="/signup"> Signup </Link> </p>
